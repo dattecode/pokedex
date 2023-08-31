@@ -1,0 +1,171 @@
+
+.containerPokeDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.detailsImage {
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 6px 9px 1px rgba(0, 0, 0, 0.1);
+}
+
+.imageDetails {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+.detaildIDPokemon {
+  background-color: blue;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid grey;
+  color: whitesmoke;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.detailsName{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.vectName{
+  background-color: #1552E1;
+  height: 0.2rem;
+  width: 40%;
+  border-radius: 2rem;
+}
+
+.namePokemonDetails{
+ height: 2.5rem;
+ width: 12rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 0.25rem;
+ color: whitesmoke;
+ text-shadow:
+ -1px -1px 0 #000,
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+ 1px 1px 0 #000;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.goToPokedex {
+  text-decoration: none;
+  margin: 1rem;
+  padding: 0.2rem;
+  background-color: #EF6139;
+  border-radius: 0.5rem;
+  color: inherit;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.goToPokedex:hover {
+  background-color: #F71C90;
+  color: #85A8FC;
+}
+
+/* bg pokemons con gradiants */
+
+.normal {
+  background: linear-gradient(to bottom, #CB98A7, #73525D);
+}
+
+.fighting {
+  background: linear-gradient(to bottom, #EF6139, #EF6139);
+}
+
+.flying {
+  background: linear-gradient(to bottom, #93B2C7, #93B2C7);
+}
+
+.poison {
+  background: linear-gradient(to bottom, #9B69DA, #5E2D88);
+}
+
+.ground {
+  background: linear-gradient(to bottom, #6E491F, #A7702D);
+}
+
+.rock {
+  background: linear-gradient(to bottom, #8B3E22, #48180A);
+}
+
+.bug {
+  background: linear-gradient(to bottom, #3B9852, #1C4B27);
+}
+
+.ghost {
+  background: linear-gradient(to bottom, #906791, #32336B);
+}
+
+.steel {
+  background: linear-gradient(to bottom, #43BD94, #60756E);
+}
+
+.fire {
+  background: linear-gradient(to bottom, #FD4D5A, #AB1E24);
+}
+
+.water {
+  background: linear-gradient(to bottom, #85A8FC, #1552E1);
+}
+
+.grass {
+  background: linear-gradient(to bottom, #26CC50, #157B3C);
+}
+
+.electric {
+  background: linear-gradient(to bottom, #FAFB71, #E4E22D);
+}
+
+.psychic {
+  background: linear-gradient(to bottom, #F71C90, #AC2A6A);
+}
+
+.ice {
+  background: linear-gradient(to bottom, #D6F1FA, #84D3F4);
+}
+
+.dragon {
+  background: linear-gradient(to bottom, #60CCD9, #458B95);
+}
+
+.dark {
+  background: linear-gradient(to bottom, #5A5979, #050706);
+}
+
+.fairy {
+  background: linear-gradient(to bottom, #EB1269, #EB1269);
+}
+
+.unknown {
+  background: linear-gradient(to bottom, #35433E, #45665B);
+}
+
+.shadow {
+  background: linear-gradient(to bottom, #301645, #463A55);
+}
+

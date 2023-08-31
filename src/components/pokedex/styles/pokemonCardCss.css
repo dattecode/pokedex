@@ -1,0 +1,219 @@
+
+.containerCard {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.25rem;
+  margin: 2rem;
+  width: 20rem;
+  height: 25rem;
+  box-shadow: 4px 6px 6px rgba(150, 135, 7, 0.575);
+}
+
+.containerImageCard {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gray;
+}
+
+.imgPokedex {
+  width: 4.5rem;
+}
+
+.containerStatsAndTypes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* bg pokemons con gradiants */
+
+.normal {
+  background: linear-gradient(to bottom, #CB98A7, #73525D);
+}
+
+.fighting {
+  background: linear-gradient(to bottom, #EF6139, #EF6139);
+}
+
+.flying {
+  background: linear-gradient(to bottom, #93B2C7, #93B2C7);
+}
+
+.poison {
+  background: linear-gradient(to bottom, #9B69DA, #5E2D88);
+}
+
+.ground {
+  background: linear-gradient(to bottom, #6E491F, #A7702D);
+}
+
+.rock {
+  background: linear-gradient(to bottom, #8B3E22, #48180A);
+}
+
+.bug {
+  background: linear-gradient(to bottom, #3B9852, #1C4B27);
+}
+
+.ghost {
+  background: linear-gradient(to bottom, #906791, #32336B);
+}
+
+.steel {
+  background: linear-gradient(to bottom, #43BD94, #60756E);
+}
+
+.fire {
+  background: linear-gradient(to bottom, #FD4D5A, #AB1E24);
+}
+
+.water {
+  background: linear-gradient(to bottom, #85A8FC, #1552E1);
+}
+
+.grass {
+  background: linear-gradient(to bottom, #26CC50, #157B3C);
+}
+
+.electric {
+  background: linear-gradient(to bottom, #FAFB71, #E4E22D);
+}
+
+.psychic {
+  background: linear-gradient(to bottom, #F71C90, #AC2A6A);
+}
+
+.ice {
+  background: linear-gradient(to bottom, #D6F1FA, #84D3F4);
+}
+
+.dragon {
+  background: linear-gradient(to bottom, #60CCD9, #458B95);
+}
+
+.dark {
+  background: linear-gradient(to bottom, #5A5979, #050706);
+}
+
+.fairy {
+  background: linear-gradient(to bottom, #EB1269, #EB1269);
+}
+
+.unknown {
+  background: linear-gradient(to bottom, #35433E, #45665B);
+}
+
+.shadow {
+  background: linear-gradient(to bottom, #301645, #463A55);
+}
+
+/*---------------------------------borders card*/
+
+.normal-border {
+  border: 7px solid #73525D;
+}
+
+.fighting-border {
+  border: 7px solid #EF6139;
+}
+
+.flying-border {
+  border: 7px solid #93B2C7;
+}
+
+.poison-border {
+  border: 7px solid #5E2D88;
+}
+
+.ground-border {
+  border: 7px solid #A7702D;
+}
+
+.rock-border {
+  border: 7px solid #48180A;
+}
+
+.bug-border {
+  border: 7px solid #1C4B27;
+}
+
+.ghost-border {
+  border: 7px solid #32336B;
+}
+
+.steel-border {
+  border: 7px solid #60756E;
+}
+
+.fire-border {
+  border: 7px solid #AB1E24;
+}
+
+.water-border {
+  border: 7px solid #1552E1;
+}
+
+.grass-border {
+  border: 7px solid #157B3C;
+}
+
+.electric-border {
+  border: 7px solid #E4E22D;
+}
+
+.psychic-border {
+  border: 7px solid #AC2A6A;
+}
+
+.ice-border {
+  border: 7px solid #84D3F4;
+}
+
+.dragon-border {
+  border: 7px solid #458B95;
+}
+
+.dark-border {
+  border: 7px solid #050706;
+}
+
+.fairy-border {
+  border: 7px solid #EB1269;
+}
+
+.unknown-border {
+  border: 7px solid #45665B;
+}
+
+.shadow-border {
+  border: 7px solid #463A55;
+}
+
+/* edit despues de los styles*/
+
+.containerTittlePokeCard {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.tittlePokedexCard {
+  max-width:60%;
+  border-top: none;
+  border-left: none;
+  text-align: center;
+  border-bottom-right-radius: 5rem;
+}
+
+.containerTypes {
+  width: 90%;
+  text-align: center;
+  border-top: none;
+  border-bottom-right-radius: 5rem;
+}

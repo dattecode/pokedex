@@ -1,0 +1,52 @@
+.containtFooterHeader {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100px; 
+  position: relative;
+}
+
+.redHeader {
+  background-color: red;
+  width: 100%; 
+  height: 60px; 
+}
+
+.blackHeader {
+  background-color: black;
+  border-bottom: 2px solid white;
+  width: 100%; 
+  height: 40px; 
+}
+
+.ballHeader {
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 27px;
+  right: 5rem;
+  border: 10px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerBallHeader {
+  background-color: rgb(56, 54, 54);
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.imageHeader{
+  position: absolute;
+  top: 1.9rem;
+}
+
+.imageHeader{
+  width: 20rem;
+}

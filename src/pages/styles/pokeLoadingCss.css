@@ -1,0 +1,17 @@
+.LoadingCont {
+  background-color: whitesmoke;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: fixed;
+}
+
+.loadingText {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: crimson;
+}

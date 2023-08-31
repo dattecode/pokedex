@@ -1,0 +1,4 @@
+
+.statsItem {
+  flex-basis: calc(33.33% - 2rem); 
+}

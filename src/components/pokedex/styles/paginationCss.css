@@ -1,0 +1,24 @@
+
+.pagContainer {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  margin: 1rem;
+  box-shadow: 2px 2px 1.5px rgba(0, 0, 0, 0.3);
+}
+
+.stylePageOn {
+  width: 1.9rem;
+  text-align: center;
+  background-color: #DD1A1A;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.stylePageOn:hover {
+  background-color: #FF5757;
+  color: white;
+}
