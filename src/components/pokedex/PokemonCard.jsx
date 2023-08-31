@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getPokemonByUrl } from "../../services/pokemons";
 import { Link } from "react-router-dom";
-import StatsList from "./statsList";
+import StatsList from "./StatsList";
 import "./styles/pokemonCardCss.css";
 import PokeLoading from "../../pages/PokeLoading";
 
